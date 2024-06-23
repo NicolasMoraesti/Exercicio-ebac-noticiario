@@ -1,0 +1,97 @@
+:root{
+  --cor-principal-01: #ffbb00;
+  --cor-principal-02: #332200;
+  --cor-principal-03: #664400;
+  --cor-principal-04: #a66f00;
+  --cor-principal-05: #e4a30b;
+  --cor-principal-06: #c49d42;
+  --cor-black: #000000;
+
+  --font-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-secundaria: Arial, Helvetica, sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 2px var(--cor-principal-02) solid;
+  border-radius: 10px;
+}
+
+.img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.titulo-principal{
+  background-color: var(--cor-principal-01);
+  color: var(--cor-principal-02);
+  font-family: var(--font-principal);
+  padding: 10px;
+  text-align: center;
+}
+
+.links-cabecalho{
+  background-color: var(--cor-principal-02);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+}
+
+.link-cabecalho{
+  list-style: none;
+  padding: 10px;
+}
+
+.link{
+  color: var(--cor-principal-01);
+  font-family: var(--font-secundaria);
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.titulo-secundario{
+  color: var(--cor-principal-02);
+  font-family: var(--font-principal);
+  text-align: center;
+  margin: 10px;
+}
+
+.texto{
+  color: var(--cor-black);
+  font-family: var(--font-secundaria);
+  font-size: 1.25rem;
+  padding: 10px;
+  max-width: 900px;
+}
+
+#esportes{
+  background-color: var(--cor-principal-03);
+  padding: 40px; 
+}
+
+#economia{
+  background-color: var(--cor-principal-04);
+  padding: 40px;
+}
+
+#tecnologia{
+  background-color: var(--cor-principal-05);
+  padding: 40px;
+}
+
+#politica{
+  background-color: var(--cor-principal-06);
+  padding: 40px;
+}
